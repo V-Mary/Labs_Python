@@ -5,7 +5,7 @@ class Lift:
     def greeting():
        return Lift.shop
 
-    def __init__(self, name, load_capacity, power_consumption):
+    def __init__(self, name, load_capacity, power_consumption, color = 'Green'):
         self.name = name
         self.load_capacity = load_capacity
         self.power_consumption = power_consumption
