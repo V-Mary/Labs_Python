@@ -22,7 +22,7 @@ def main():
     Nokia = Lift("MINI", 3500, 250)
     Acer = Lift("HUGE", 4000, 800)
 
-    print(Apple.__str__(), "\n", Nokia.__str__(), "\n", Acer.__str__())
+    print(Apple, "\n", Nokia, "\n", Acer)
 
     Lift.greeting()
 
